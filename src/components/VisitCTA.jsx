@@ -1,0 +1,1 @@
+export default function VisitCTA(){return (<div className="wrap"><div className="visit"><div><span className="eyebrow">Here for our community</span><h2>Your next step toward care.</h2><p>Find out where we are and what to confirm before your visit.</p></div><a className="button" href="/visit">Plan your visit <span aria-hidden="true">↗</span></a></div></div>);}

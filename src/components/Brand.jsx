@@ -1,0 +1,1 @@
+export default function Brand(){return (<a className="brand" href="/" aria-label="Courage Medical and Rehab Center home"><span className="mark" aria-hidden="true">+</span><span><strong>Courage</strong><small>Medical &amp; Rehab Center</small></span></a>);}
