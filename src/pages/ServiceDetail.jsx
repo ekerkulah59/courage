@@ -14,7 +14,7 @@ export default function ServiceDetail({ service }) {
         <h1>{service.headline}</h1>
         <p>{service.introduction}</p>
         <a className="button" href={emergency ? '/contact' : '/visit'}>
-          {emergency ? 'Location information' : 'Plan your visit'} <span aria-hidden="true">↗</span>
+          {emergency ? 'Location information' : 'Plan your visit'}
         </a>
       </div>
       {emergency && <p className="notice">Do not wait for a response from this website in a medical emergency. No emergency requests are received here.</p>}
@@ -33,15 +33,15 @@ export default function ServiceDetail({ service }) {
             <h3>{emergency ? 'Location and availability' : 'Before your visit'}</h3>
             <p>{service.visit}</p>
           </div>
-          <a className="text-link" href="/contact">Location &amp; contact ↗</a>
+          <a className="text-link" href="/contact">Location &amp; contact</a>
         </div>
       </div>
     </section>
     <section className="block community">
       <div className="wrap">
-        <div className="section-head"><div><span className="eyebrow">Explore our care</span><h2>Other services at Courage</h2></div><a className="text-link" href="/services">All services ↗</a></div>
+        <div className="section-head"><div><span className="eyebrow">Explore our care</span><h2>Other services at Courage</h2></div><a className="text-link" href="/services">All services</a></div>
         <nav className="related-services" aria-label="Other services">
-          {services.filter(item => item.slug !== service.slug).map(item => <a key={item.slug} href={`/${item.slug}`}>{item.name}<span aria-hidden="true">↗</span></a>)}
+          {services.filter(item => item.slug !== service.slug).map(item => <a key={item.slug} href={`/${item.slug}`}>{item.name}</a>)}
         </nav>
       </div>
     </section>

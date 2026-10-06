@@ -1,1 +1,1 @@
-export default function Brand(){return (<a className="brand" href="/" aria-label="Courage Medical and Rehab Center home"><span className="mark" aria-hidden="true">+</span><span><strong>Courage</strong><small>Medical &amp; Rehab Center</small></span></a>);}
+export default function Brand(){return (<a className="brand" href="/" aria-label="Courage Medical and Rehab Center home"><img className="brand-logo" src="/Courage logo for website.jpg" alt="" width="1600" height="1393" /><span><strong>Courage</strong><small>Medical &amp; Rehab Center</small></span></a>);}
