@@ -42,7 +42,7 @@ export const services = [
     audience: 'For people needing urgent medical attention. This website is informational and does not provide emergency assessment or monitor requests for help.',
     offerings: ['Urgent medical conditions', 'Injuries requiring immediate attention', 'Emergency care described in the profile as available 24 hours a day, seven days a week'],
     approach: 'The emergency department is described as caring for a range of urgent conditions. Regular clinic and specialist schedules are separate from emergency department hours.',
-    visit: 'The center is in Kollieta Wolah, Gbarnga, Bong County. A verified emergency telephone number and precise directions have not yet been supplied for this website.',
+    visit: 'The center is in Kollieta Wolah, Gbarnga, Bong County. For urgent needs, call +231 881 228 791 or +231 776 074 040. Precise directions have not yet been supplied for this website.',
   },
   {
     slug: 'rehabilitation', name: 'Rehabilitation',

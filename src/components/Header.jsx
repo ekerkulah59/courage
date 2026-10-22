@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import Brand from './Brand';
+import { phones } from '../data/contact';
 const links = [['services', 'Our services'], ['about', 'About Courage'], ['community', 'Community'], ['visit', 'Plan your visit']];
 export default function Header({ active }) {
   const [isOpen, setIsOpen] = useState(false);
   return <>
-    <div className="utility"><div className="wrap"><span>Kollieta Wolah · Gbarnga, Bong County, Liberia</span><span>Care with compassion. Rooted in community.</span></div></div>
+    <div className="utility"><div className="wrap"><span>Kollieta Wolah · Gbarnga, Bong County, Liberia</span><span>Call <a href={phones[0].href}>{phones[0].label}</a> / <a href={phones[1].href}>{phones[1].label}</a></span></div></div>
     <header><div className="wrap nav">
       <Brand />
       <nav className={`links${isOpen ? ' open' : ''}`} id="navigation" aria-label="Main navigation" onKeyDown={event => { if (event.key === 'Escape') setIsOpen(false); }}>
